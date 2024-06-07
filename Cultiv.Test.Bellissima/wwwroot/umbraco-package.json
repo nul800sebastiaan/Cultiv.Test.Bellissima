@@ -1,0 +1,15 @@
+{
+    "$schema": "../../Cultiv.Test.Bellissima.Website/umbraco-package-schema.json",
+    "id": "cultiv.test.bellissima",
+    "name": "Cultiv.Test.Bellissima",
+    "allowPackageTelemetry": true,
+    "version": "1.0.0",
+    "extensions": [
+        {
+          "name": "Cultiv.Test.Bellissima EntryPoint",
+          "alias": "cultiv.test.bellissima.entrypoint",
+          "type": "backofficeEntryPoint",
+          "js": "/app_plugins/Cultiv.Test.Bellissima/cultiv.test.bellissima.js"
+        }
+      ]
+}
